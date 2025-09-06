@@ -4,6 +4,8 @@ Project Info
 AI Model Evaluator is a web-based dashboard for monitoring, analyzing, and improving AI/LLM model performance.
 It provides detailed metrics, visualization of evaluation results, weak segment analysis, and supports version-to-version comparisons for continuous improvement.
 
+<img width="1277" height="911" alt="image" src="https://github.com/user-attachments/assets/b9ed312b-1f33-4ad3-8721-693c36f20814" />
+
 Getting Started
 Prerequisites
 
