@@ -1,73 +1,97 @@
-# Welcome to your Lovable project
+AI Model Evaluator
+Project Info
 
-## Project info
+AI Model Evaluator is a web-based dashboard for monitoring, analyzing, and improving AI/LLM model performance.
+It provides detailed metrics, visualization of evaluation results, weak segment analysis, and supports version-to-version comparisons for continuous improvement.
 
-**URL**: https://lovable.dev/projects/84b489cc-bff4-465c-b51d-1fb5ff1f86c0
+Getting Started
+Prerequisites
 
-## How can I edit this code?
+Make sure you have the following installed:
 
-There are several ways of editing your application.
+Node.js (use nvm
+ for easy installation and version management)
 
-**Use Lovable**
+npm or yarn package manager
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/84b489cc-bff4-465c-b51d-1fb5ff1f86c0) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+Setup Instructions
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install the dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The app will start with hot reloading enabled. Open the provided local URL in your browser to preview the dashboard.
 
-**Use GitHub Codespaces**
+Editing the Project
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+You can edit the project using:
 
-## What technologies are used for this project?
+Your preferred IDE (e.g., VS Code, WebStorm)
 
-This project is built with:
+GitHub web editor: Navigate to any file and use the inline editor
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+GitHub Codespaces: Launch a cloud-based IDE directly from GitHub
 
-## How can I deploy this project?
+Tech Stack
 
-Simply open [Lovable](https://lovable.dev/projects/84b489cc-bff4-465c-b51d-1fb5ff1f86c0) and click on Share -> Publish.
+This project is built using:
 
-## Can I connect a custom domain to my Lovable project?
+Vite – Fast build tool and dev server
 
-Yes, you can!
+TypeScript – Type-safe JavaScript
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+React – Frontend UI framework
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+shadcn-ui – Prebuilt accessible UI components
+
+Tailwind CSS – Utility-first styling
+
+Deployment
+
+You can deploy this project using your preferred service:
+
+Vercel
+
+Netlify
+
+AWS Amplify
+
+GitHub Pages
+
+Once deployed, you can connect a custom domain via your hosting provider’s settings.
+
+Features
+
+📊 Overall Model Score with breakdown by correctness, relevance, completeness, etc.
+
+📂 Topic-wise Distribution of evaluation samples
+
+🧩 Property Metrics: correctness, completeness, fluency, toxicity, sentiment, hallucination score, bias/fairness, latency
+
+🔎 Weak Segment Analysis to identify failure patterns
+
+📈 Trends & Comparisons across versions
+
+📝 Detailed Evaluation Table with filtering and annotations
+
+📤 Export Reports to PDF, CSV, XLSX
+
+🌙 Dark Mode support
+
+Future Enhancements
+
+Multi-model comparison dashboards
+
+Advanced filtering with dataset-level analysis
+
+Real-time evaluation integration via APIs
+
+Collaboration features with comments and annotations
